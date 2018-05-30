@@ -13,3 +13,15 @@
     margin-right: 30px;
     text-transform: uppercase;
 }
+
+#orrwc-Widget .orrwc-Content .Message.Visitor .Bubble {
+    background-color: #406a9c;
+    border-color: #406a9c;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: -1px;
+    text-align: left;
+    padding: 12px;
+    border-radius: 24px;
+}
+
