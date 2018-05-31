@@ -62,3 +62,13 @@
     width: 113px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 2px 0 rgba(0, 0, 0, 0.14);
 }
+.Rounded-Rectangle-blue-outlined {
+  width: 105px;
+  height: 44px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  background-color: var(--white100);
+  border: solid 2px #406a9c;
+  border: solid 2px var(--blue500);
+}
