@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* CSS Document */
+
 #orrwc-Widget,.orrwc-ContentCardWidget{/*!
   * CleanSlate
   *   github.com/premasagar/cleanslate
@@ -23,5 +26,17 @@
     text-align: left;
     padding: 12px;
     border-radius: 24px;
+    font-family: Whitney ssm;
 }
 
+#orrwc-Widget p, .orrwc-ContentCardWidget p {
+    margin: 1em 0;
+    font-family: Whitney ssm;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
