@@ -40,28 +40,6 @@
     letter-spacing: normal;
     text-transform: capitalize;
 }
-#orrwc-Widget button, #orrwc-Widget input[type=button], #orrwc-Widget input[type=submit] {
-    -webkit-appearance: none;
-    background-color: #358dbe;
-    border: 1px solid;
-    border-color: #358dbe;
-    color: #fff;
-    border-radius: 3px;
-    cursor: pointer;
-    min-width: 20px;
-    outline: 0;
-    padding: 7px 10px;
-    text-align: center;
-    text-decoration: none;
-    transition-property: background,color,border;
-    transition-duration: .2s;
-    text-transform: uppercase;
-    font-family: whitney ssm;
-    font-weight: 600;
-    height: 44px;
-    width: 113px;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 2px 0 rgba(0, 0, 0, 0.14);
-}
 .Rounded-Rectangle-blue-outlined {
   width: 105px;
   height: 44px;
@@ -71,4 +49,24 @@
   background-color: var(--white100);
   border: solid 2px #406a9c;
   border: solid 2px var(--blue500);
+}
+#orrwc-Widget .Message.Bot .ViewContent, #orrwc-Widget .buttonPrimary, #orrwc-Widget button, #orrwc-Widget input[type=button], #orrwc-Widget input[type=submit] {
+    -webkit-appearance: none;
+    background-color: #406A9C;
+    border: 1px solid;
+    border-color: #406A9C;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    min-width: 20px;
+    outline: 0;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    transition-property: background,color,border;
+    transition-duration: .2s;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Whitney SSm;
+    font-weight: 600;
 }
